@@ -84,7 +84,6 @@ int main()
     len = (sizeof(input3) / sizeof(input3[0]));
     assert( 1 == calculate(input3, output3, len, 1));
     assert( 85 == output3[4]);
-    calculate(input3, output3, len, 3);
     printf("5/5 passed\n");
     return (0);
 }
